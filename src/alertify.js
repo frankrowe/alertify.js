@@ -14,8 +14,8 @@
 		dialogs = {
 			buttons : {
 				holder : "<nav class=\"alertify-buttons\">{{buttons}}</nav>",
-				ok     : "<a href=\"#\" class=\"alertify-button alertify-button-ok\" id=\"aOK\">{{ok}}</a>",
-				cancel : "<a href=\"#\" class=\"alertify-button alertify-button-cancel\" id=\"aCancel\">{{cancel}}</a>"
+				ok     : "<button class=\"alertify-button alertify-button-ok\" id=\"aOK\">{{ok}}</button>",
+				cancel : "<button class=\"alertify-button alertify-button-cancel\" id=\"aCancel\">{{cancel}}</button>"
 			},
 			input   : "<input type=\"text\" class=\"alertify-text\" id=\"aText\">",
 			message : "<p class=\"alertify-message\">{{message}}</p>",
